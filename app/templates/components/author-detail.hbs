@@ -1,10 +1,5 @@
 <div class="author-detail">
-    
-    
-    {{#each model as |author|}}
-  
     <h2>{{author.name}}</h2>
-    
     <p>
         <strong>Id Autor:</strong> {{author.id}}</p>
     <p>
@@ -22,7 +17,7 @@
             <strong>{{author.books.length}}</strong>
         </h3>
     </p>
-    {{/each}}
+
 </div>
 
 {{yield}}
